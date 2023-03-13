@@ -1,4 +1,4 @@
-# Прохождение [Тренировок по алгоритмам 3.0 от Яндекса](https://yandex.ru/yaintern/algorithm-training), дивизион B (JavaScript / NodeJS)
+# Прохождение [Тренировок по алгоритмам 3.0 от Яндекса](https://yandex.ru/yaintern/algorithm-training), дивизион B (JavaScript / NodeJS), февраль-март 2023 г.
 
 ## Всего решено 40 задач, охватывающих следующие темы:
 - Стеки
