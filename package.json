@@ -1,0 +1,27 @@
+{
+  "name": "yandex-algorithm-training-3b-js",
+  "version": "3.0.0",
+  "description": "b",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./src/",
+    "test": "npx jest ./src/",
+    "test:failed": "npx jest --onlyFailures"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.4.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.4.3"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-node",
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  }
+}
