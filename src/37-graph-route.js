@@ -103,16 +103,6 @@ class Graph {
     }
   }
 
-  bfsAll(visited = {}) {
-    for (const vertice in this.data) {
-      if (this.data.hasOwnProperty(vertice) && typeof visited[vertice] === 'undefined') {
-        this.bfs(vertice, visited);
-      }
-    }
-
-    return visited;
-  }
-
   getPrevs(vertice, prevs) {
     const path = [];
 
